@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation Page Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="menu">
+        <header class="header">Web Development Documentation</header>
+        <ul class="list-index">
+          <li><a href="#introduction">Introduction</a></li>
+          <li>
+            <a href="#HTML_elements">HTML elements</a>
+          </li>
+          <li><a href="#Flex_box" class="nav-link">Flex box</a></li>
+          <li><a href="#CSS_class" class="nav-link">CSS Class</a></li>
+          <li><a href="#Media_queries" class="nav-link">Media queries</a></li>
+          <li>
+            <a href="#Java_script" class="nav-link">Java Script</a>
+          </li>
+          <li>
+            <a href="#data-types" class="nav-link">Data types</a>
+          </li>
+          <li><a href="#if-else" class="nav-link">if...else statement</a></li>
+          <li><a href="#while-stmt" class="nav-link">while statement</a></li>
+          <li><a href="#Bootstrap" class="nav-link">Bootstrap</a></li>
+          <li><a href="#Github" class="nav-link">Github</a></li>
+          <li><a href="#React" class="nav-link">React</a></li>
+          <li>
+            <a href="#Visual_Studio_Code" class="nav-link"
+              >Visual Studio Code</a
+            >
+          </li>
+          <li><a href="#reference" class="nav-link">Reference</a></li>
+        </ul>
+      </div>
+      <section class="details">
+        <div class="subject" id="introduction">
+          <header>Introduction</header>
+          <article>
+            <p>
+              HyperText Markup Language (HTML), Cascading Style Sheets (CSS),
+              and JavaScript are the languages that run the web. They’re very
+              closely related, but they’re also designed for very specific
+              tasks. Understanding how they interact will go a long way towards
+              becoming a web developer. We’ll be expanding on this throughout
+              the tutorial, but the gist of it is:
+            </p>
+            <ul>
+              <li>
+                HTML is for adding meaning to raw content by marking it up.
+              </li>
+              <li>CSS is for formatting that marked up content.</li>
+              <li>
+                JavaScript is for making that content and formatting
+                interactive.
+              </li>
+              <li>Flex box is used in HTML to make it more presentable</li>
+              <li>
+                Media Queries are used in CSS make the content adjust to any
+                viewing device
+              </li>
+              <li>
+                Additional information - Javascript, Bootstrap, Github and React
+              </li>
+            </ul>
+          </article>
+        </div>
+        <div class="subject" id="HTML_elements">
+          <header>HTML elements</header>
+          <article>
+            <p>
+              Add the following HTML markup to our basics.html file. This is
+              what you’ll start with for every single web page you’ll ever
+              produce. Typically, you would use a templating engine of some sort
+              to avoid re-typing the redundant parts, but for this tutorial,
+              we’ll be focusing on the raw HTML.
+            </p>
+            <ul>
+              <li>Doctype Element</li>
+              <li>HTML Element</li>
+              <li>Head Element</li>
+              <li>Meta Element</li>
+              <li>Body Element</li>
+            </ul>
+          </article>
+        </div>
+        <div class="subject" id="Flex_box">
+          <header>Flex box</header>
+          <article>
+            <p>
+              The “Flexible Box” or “Flexbox” layout mode offers an alternative
+              to Floats for defining the overall appearance of a web page.
+              Whereas floats only let us horizontally position our boxes,
+              flexbox gives us complete control over the alignment, direction,
+              order, and size of our boxes.
+            </p>
+            <code> display: flex;</code>
+            <code> flex-direction: columns; </code>
+          </article>
+        </div>
+        <div class="subject" id="CSS_class">
+          <header>CSS class</header>
+          <article>
+            <p>
+              The “CSS box model“ is a set of rules that define how every web
+              page on the Internet is rendered. CSS treats each element in your
+              HTML document as a “box” with a bunch of different properties that
+              determine where it appears on the page. So far, all of our web
+              pages have just been a bunch of elements rendered one after
+              another. The box model is our toolkit for customizing this default
+              layout scheme.
+            </p>
+            <code
+              >p {padding-top: 20px;} h1 {border: 10px;} .class{margin: 0 auto;}
+              body {background-color: white;} body {color: black;}
+            </code>
+          </article>
+        </div>
+        <div class="subject" id="Media_queries">
+          <header>Media queries</header>
+          <article>
+            <p>
+              Media queries always begin with the @media “at-rule” followed by
+              some kind of conditional statement, and then some curly braces.
+              Inside the curly braces, you put a bunch of ordinary CSS rules.
+              The browser only pays attention to those rules if the condition is
+              met.
+            </p>
+            <code>
+              @media only screen and (max-width: 600px) { h1 { font-size: 1.2em;
+              } }
+            </code>
+          </article>
+        </div>
+        <div class="subject" id="Java_script">
+          <header>Java Script</header>
+          <article>
+            <p>
+              It is a cross-platform, object-oriented scripting language. It is
+              a small and lightweight language. Inside a host environment (for
+              example, a web browser), JavaScript can be connected to the
+              objects of its environment to provide programmatic control over
+              them.
+            </p>
+            <code>function myFunction(p1, p2) { return p1 * p2; }</code>
+          </article>
+        </div>
+        <div class="subject" id="data-types">
+          <header>Data types</header>
+          <article>
+            <p>The latest ECMAScript standard defines seven data types:</p>
+            <ul class="parent-list">
+              <li>Six data types that are primitives:</li>
+              <ul class="child-list">
+                <li>Boolean. true and false.</li>
+                <li>
+                  null. A special keyword denoting a null value. Because
+                  JavaScript is case-sensitive, null is not the same as Null,
+                  NULL, or any other variant.
+                </li>
+                <li>
+                  undefined. A top-level property whose value is undefined.
+                </li>
+                <li>Number. 42 or 3.14159.</li>
+                <li>String. "Howdy"</li>
+                <li>
+                  Symbol (new in ECMAScript 2015). A data type whose instances
+                  are unique and immutable.
+                </li>
+              </ul>
+              <li>and Object</li>
+            </ul>
+            <p>
+              Although these data types are a relatively small amount, they
+              enable you to perform useful functions with your applications.
+              Objects and functions are the other fundamental elements in the
+              language. You can think of objects as named containers for values,
+              and functions as procedures that your application can perform.
+            </p>
+          </article>
+        </div>
+        <div class="subject" id="if-else">
+          <header>if...else statement</header>
+          <article>
+            <p>
+              Use the if statement to execute a statement if a logical condition
+              is true. Use the optional else clause to execute a statement if
+              the condition is false. An if statement looks as follows:
+            </p>
+            <code>if (condition) { statement_1; } else { statement_2; }</code>
+            <p>
+              condition can be any expression that evaluates to true or false.
+              See Boolean for an explanation of what evaluates to true and
+              false. If condition evaluates to true, statement_1 is executed;
+              otherwise, statement_2 is executed. statement_1 and statement_2
+              can be any statement, including further nested if statements.
+            </p>
+            <p>
+              You may also compound the statements using else if to have
+              multiple conditions tested in sequence, as follows:
+            </p>
+            <code
+              >if (condition_1) { statement_1; } else if (condition_2) {
+              statement_2; } else if (condition_n) { statement_n; } else {
+              statement_last; }</code
+            >
+            <p>
+              In the case of multiple conditions only the first logical
+              condition which evaluates to true will be executed. To execute
+              multiple statements, group them within a block statement ({ ... })
+              . In general, it's good practice to always use block statements,
+              especially when nesting if statements:
+            </p>
+            <code
+              >if (condition) { statement_1_runs_if_condition_is_true;
+              statement_2_runs_if_condition_is_true; } else {
+              statement_3_runs_if_condition_is_false;
+              statement_4_runs_if_condition_is_false; }</code
+            >
+            <p>
+              It is advisable to not use simple assignments in a conditional
+              expression, because the assignment can be confused with equality
+              when glancing over the code. For example, do not use the following
+              code:
+            </p>
+            <code>if (x = y) { /* statements here */ }</code>
+            <p>
+              If you need to use an assignment in a conditional expression, a
+              common practice is to put additional parentheses around the
+              assignment. For example:
+            </p>
+            <code>if ((x = y)) { /* statements here */ }</code>
+          </article>
+        </div>
+        <div class="subject" id="while-stmt">
+          <header>while statement</header>
+          <article>
+            <p>
+              A while statement executes its statements as long as a specified
+              condition evaluates to true. A while statement looks as follows:
+            </p>
+            <code>while (condition) statement</code>
+            <p>
+              If the condition becomes false, statement within the loop stops
+              executing and control passes to the statement following the loop.
+            </p>
+            <p>
+              The condition test occurs before statement in the loop is
+              executed. If the condition returns true, statement is executed and
+              the condition is tested again. If the condition returns false,
+              execution stops and control is passed to the statement following
+              while.
+            </p>
+            <p>
+              To execute multiple statements, use a block statement ({ ... }) to
+              group those statements.
+            </p>
+            <p>Example:</p>
+            <p>
+              The following while loop iterates as long as n is less than three:
+            </p>
+            <code>var n = 0; var x = 0; while (n < 3) { n++; x += n; }</code>
+            <p>
+              With each iteration, the loop increments n and adds that value to
+              x. Therefore, x and n take on the following values:
+            </p>
+            <ul>
+              <li>After the first pass: n = 1 and x = 1</li>
+              <li>After the second pass: n = 2 and x = 3</li>
+              <li>After the third pass: n = 3 and x = 6</li>
+            </ul>
+            <p>
+              After completing the third pass, the condition n < 3 is no longer
+              true, so the loop terminates.
+            </p>
+          </article>
+        </div>
+        <div class="subject" id="Bootstrap">
+          <header>Bootstrap</header>
+          <article>
+            <p>
+              It is a free and open-source CSS framework directed at responsive,
+              mobile-first front-end web development. It contains HTML, CSS and
+              (optionally) JavaScript-based design templates for typography,
+              forms, buttons, navigation, and other interface components.
+            </p>
+          </article>
+        </div>
+        <div class="subject" id="Github">
+          <header>Github</header>
+          <article>
+            <p>
+              It is used to store the source code for a project and track the
+              complete history of all changes to that code. It lets developers
+              collaborate on a project more effectively by providing tools for
+              managing possibly conflicting changes from multiple developers.
+            </p>
+          </article>
+        </div>
+        <div class="subject" id="React">
+          <header>React</header>
+          <article>
+            <p>
+              React is a JavaScript library developed by Facebook which, among
+              other things, was used to build Instagram.com. It aims to allow
+              developers to create fast user interfaces for websites and
+              applications alike easily. The main concept of React. js is
+              virtual DOM.
+            </p>
+          </article>
+        </div>
+        <div class="subject" id="Visual_Studio_Code">
+          <header>Visual Studio Code</header>
+          <article>
+            <p>
+              It is a streamlined code editor with support for development
+              operations like debugging, task running, and version control. It
+              aims to provide just the tools a developer needs for a quick
+              code-build-debug cycle and leaves more complex workflows to fuller
+              featured IDEs, such as Visual Studio IDE.
+            </p>
+          </article>
+        </div>
+        <div class="subject" id="reference">
+          <header>Reference</header>
+          <article>
+            <ul>
+              <li>
+                All the documentation in this page is taken from
+                <a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+                  target="_blank"
+                  >MDN</a
+                >
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
